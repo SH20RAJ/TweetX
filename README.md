@@ -18,7 +18,7 @@ Key Features:
 
 ---
 
-[Codepen](https://codepen.io/SH20RAJ/pen/mdgqprw?editors=1000) | [Demo](https://sh20raj.github.io/TweetX/demo.html)
+[Codepen](https://codepen.io/SH20RAJ/pen/mdgqprw?editors=1000) | [Demo](https://sh20raj.github.io/TweetX/demo.html) | [Dev.to](https://dev.to/sh20raj/tweetx-html5-twitter-like-video-player-for-your-website-31kh)
 
 ---
 
@@ -42,7 +42,7 @@ To use the TweetX video player on your website, follow these steps:
      <source src="path/to/your/video.mp4" type="video/mp4">
    </video>
    ```
-
+Sample Video URL : `https://bit.ly/bbsamplevideo`
 ---
 
 ## Usage
@@ -82,7 +82,7 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## Acknowledgements
 
-Special thanks to the original creator of the Twitter video player clone, [Ahmet Aksungur](https://github.com/Ahmetaksungur), for the inspiration and initial implementation.
+Special thanks to the original creator of the Twitter video player clone, [Ahmet Aksungur](https://github.com/Ahmetaksungur/twitter-video-player-clone), for the inspiration and initial implementation.
 
 ---
 
