@@ -9,6 +9,13 @@
 A Twitter video player clone for embedding Twitter-style video players on your website.
 TweetX Video Player - A Twitter/X UI HTML5 Video Player
 
+Key Features:
+- 🎥 Sleek Twitter-like Design: Get the Twitter video player look and feel on your website.
+- 🎨 Customizable: Easily tweak colors and styles to match your website's theme.
+- ▶️ Play, Pause, Volume Control: All the essential video player functionalities.
+- 📐 Responsive: Works seamlessly on desktops, tablets, and mobile devices.
+- 💻 Lightweight: Minimal footprint for fast loading times.
+
 ---
 
 [Codepen](https://codepen.io/SH20RAJ/pen/mdgqprw?editors=1000) | [Demo](https://sh20raj.github.io/TweetX/demo.html)
