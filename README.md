@@ -11,7 +11,7 @@ TweetX Video Player - A Twitter/X UI HTML5 Video Player
 
 ---
 
-[Codepen](https://codepen.io/SH20RAJ/pen/mdgqprw?editors=1000)
+[Codepen](https://codepen.io/SH20RAJ/pen/mdgqprw?editors=1000) | [Demo](https://sh20raj.github.io/TweetX/demo.html)
 
 ---
 
