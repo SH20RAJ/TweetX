@@ -308,10 +308,13 @@
     const videos = document.querySelectorAll("video.tweetx");
 
     videos.forEach((video) => {
+      // console.log(video)
       const videoPlayerHTML = `
         <div class="video">
-          <div class="video-preview" style=" background-image: url(${video.poster | video.getAttribute(
+          <div class="video-preview" style=" background-image: url(${video.poster || video.getAttribute(
             "data-preview-image"
+          ) || video.getAttribute(
+            "data-poster"
           )});">
             <button class="video-start-btn">
               <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -351,7 +354,13 @@
                     </svg>
                   </button>
                 </div>
-                <div class="video-views">${video.datalist.viewtext || '725.5K views'}</div>
+                <div class="video-views">${video.getAttribute(
+            "data-viewtext"
+          ) || video.getAttribute(
+            "data-title"
+          ) || video.getAttribute(
+            "title"
+          )}</div>
               </div>
               <div class="wrap">
                 <div class="video-counts"><span class="video-count-time">0:25</span><span class="video-count-line">/</span><span class="video-count-fulltime">0:52</span></div>
