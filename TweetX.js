@@ -310,7 +310,7 @@
     videos.forEach((video) => {
       const videoPlayerHTML = `
         <div class="video">
-          <div class="video-preview" style=" background-image: url(${video.getAttribute(
+          <div class="video-preview" style=" background-image: url(${video.poster | video.getAttribute(
             "data-preview-image"
           )});">
             <button class="video-start-btn">
@@ -351,7 +351,7 @@
                     </svg>
                   </button>
                 </div>
-                <div class="video-views">725.5K views</div>
+                <div class="video-views">${video.datalist.viewtext || '725.5K views'}</div>
               </div>
               <div class="wrap">
                 <div class="video-counts"><span class="video-count-time">0:25</span><span class="video-count-line">/</span><span class="video-count-fulltime">0:52</span></div>
