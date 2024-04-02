@@ -38,7 +38,7 @@ To use the TweetX video player on your website, follow these steps:
 
 3. Place your `<video>` element with the `tweetx` class:
    ```html
-   <video tabindex="-1" data-video="" allowfullscreen="false" controlslist="nodownload" class="tweetx">
+   <video tabindex="-1" data-video="" allowfullscreen="false" controlslist="nodownload" class="tweetx" poster="https://bit.ly/bbsampleposter" data-viewtext="200.5K views">
      <source src="path/to/your/video.mp4" type="video/mp4">
    </video>
    ```
