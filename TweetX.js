@@ -360,7 +360,7 @@
             "data-title"
           ) || video.getAttribute(
             "title"
-          )}</div>
+          ) || ""}</div>
               </div>
               <div class="wrap">
                 <div class="video-counts"><span class="video-count-time">0:25</span><span class="video-count-line">/</span><span class="video-count-fulltime">0:52</span></div>
