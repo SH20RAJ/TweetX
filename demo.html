@@ -3,7 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TweetX Demo</title>
+  <title>TweetX Video Player Demo</title>
+  <meta name="description" content="TweetX Video Player - A Twitter/X UI HTML5 Video Player">
+  <meta property="og:title" content="TweetX Video Player Demo">
+  <meta property="og:description" content="TweetX Video Player - A Twitter/X UI HTML5 Video Player">
+  <meta property="og:image" content="https://bit.ly/bbsampleposter">
+  <meta property="og:url" content="https://sh20raj.github.io/TweetX/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@sh20raj">
+  <meta name="twitter:title" content="TweetX Video Player Demo">
+  <meta name="twitter:description" content="TweetX Video Player - A Twitter/X UI HTML5 Video Player">
+  <meta name="twitter:image" content="https://bit.ly/bbsampleposter">
+
+
   <!-- Link to the TweetX CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SH20RAJ/TweetX/TweetX.min.css">
   <style>
@@ -25,17 +38,17 @@
       font-size: 14px;
     }
     .footer a {
-      color: #333;
+      color: hotpink;
       text-decoration: none;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>TweetX Twitter Video Player Demo</h1>
+    <h1>TweetX - Twitter like Video Player Demo</h1>
     <div class="video-container">
       <!-- TweetX Twitter video player -->
-      <video tabindex="-1" data-video="" allowfullscreen="false" controlslist="nodownload" class="tweetx" poster="https://bit.ly/bbsampleposter">
+      <video tabindex="-1" data-video="" allowfullscreen="false" controlslist="nodownload" class="tweetx" poster="https://bit.ly/bbsampleposter" title="TweetX">
         <!-- Replace the source URL with your own video URL -->
         <source src="https://bit.ly/bbsamplevideo" type="video/mp4">
       </video>
@@ -43,10 +56,10 @@
   </div>
 
   <!-- Link to the TweetX JavaScript -->
-  <script src="https://cdn.jsdelivr.net/gh/SH20RAJ/TweetX/TweetX.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/SH20RAJ/TweetX@master/TweetX.min.js" defer></script>
 
   <div class="footer">
-    <p>View the <a href="https://github.com/SH20RAJ/TweetX" target="_blank">TweetX GitHub Repository</a></p>
+    <p>View the <a href="https://github.com/SH20RAJ/TweetX" target="_blank">TweetX GitHub Repository</a> ||  <a href="https://codepen.io/SH20RAJ/pen/mdgqprw?editors=1011" target="_blank">TweetX Codepen</a></p>
     <p>Developed by <a href="https://github.com/SH20RAJ" target="_blank">@SH20RAJ</a></p>
   </div>
 </body>
