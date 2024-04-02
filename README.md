@@ -5,6 +5,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/SH20RAJ/TweetX.svg?style=social)](https://github.com/SH20RAJ/TweetX/network)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/SH20RAJ/TweetX.svg?style=social)](https://twitter.com/intent/tweet?text=Check%20out%20TweetX%20%E2%80%93%20A%20Twitter%20video%20player%20clone%20on%20GitHub:%20https%3A%2F%2Fgithub.com%2FSH20RAJ%2FTweetX)
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FSH20RAJ%2FTweetX%2F&labelColor=%23d9e3f0&countColor=%232ccce4&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FSH20RAJ%2FTweetX%2F)
+[![](https://data.jsdelivr.com/v1/package/gh/sh20raj/Tweetx/badge)](https://www.jsdelivr.com/package/gh/sh20raj/Tweetx)
 
 A Twitter video player clone for embedding Twitter-style video players on your website.
 TweetX Video Player - A Twitter/X UI HTML5 Video Player
@@ -28,13 +29,19 @@ To use the TweetX video player on your website, follow these steps:
 
 1. Include the CSS file in the `<head>` section of your HTML:
    ```html
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SH20RAJ/TweetX/TweetX.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SH20RAJ/TweetX/TweetX.min.css">
    ```
 
 2. Include the JavaScript file at the bottom of your HTML, just before the closing `</body>` tag:
    ```html
-   <script src="https://cdn.jsdelivr.net/gh/SH20RAJ/TweetX/TweetX.js"></script>
+   <script src="https://cdn.jsdelivr.net/gh/SH20RAJ/TweetX/TweetX.min.js"></script>
    ```
+
+> Use both in head tag
+> ```html
+> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SH20RAJ/TweetX/TweetX.min.css">
+> <script src="https://cdn.jsdelivr.net/gh/SH20RAJ/TweetX/TweetX.min.js" defer async></script>
+> ```
 
 3. Place your `<video>` element with the `tweetx` class:
    ```html
@@ -42,8 +49,15 @@ To use the TweetX video player on your website, follow these steps:
      <source src="path/to/your/video.mp4" type="video/mp4">
    </video>
    ```
-Sample Video URL : `https://bit.ly/bbsamplevideo` | Sample Poster URL : `https://bit.ly/bbsampleposter`
+   Sample Video URL : `https://bit.ly/bbsamplevideo` | Sample Poster URL : `https://bit.ly/bbsampleposter`
 ---
+
+## APIs
+
+### Attributes
+- `data-viewtext` - Sets the numbers of views
+- `data-title` or `title` - Sets the Video Title
+- `poster` or `date-preview-image` or `data-poster`  - Sets the poster of the video
 
 ## Usage
 
